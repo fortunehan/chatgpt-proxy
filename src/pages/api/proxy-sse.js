@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   path.shift();
   path = path.join("");
 
-  const url = `https://api.openai.com${path}`;
+  const url = `https://api.openai-sb.com${path}`;
   const options = {
     headers: headers,
     method: method,
