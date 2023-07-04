@@ -8,8 +8,8 @@ const nextConfig = {
         destination: "https://api.openai-sb.com/:slug*",
       },
       {
-        source: "/dev-query/:slug*",
-        destination: "/api/dev-query?path=:slug*",
+        source: "/get/:slug*",
+        destination: "/api/get?path=:slug*",
       },
     ];
   },
