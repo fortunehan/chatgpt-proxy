@@ -152,7 +152,7 @@ Whether you use Zeabur or Vercel, you will get the following proxy service after
 
 <img width="600" src="public/proxy.png" alt="Proxy service"/>
 
-The resulting two addresses will be fully forwarded to `https://api.openai.com` and both will be domestically accessible, where `.../proxy-sse` supports SSE
+The resulting two addresses will be fully forwarded to `https://api.openai.com` and both will be domestically accessible, where `.../dev-query` supports SSE
 
 You can use the proxy service in applications that support custom apis to invoke the "openai" interface domestically
 

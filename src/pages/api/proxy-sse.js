@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   headers.delete("host");
   headers.delete("referer");
 
-  let path = pathname.split("/proxy-sse");
+  let path = pathname.split("/dev-query");
   path.shift();
   path = path.join("");
 

@@ -155,7 +155,7 @@ $ pnpm start
 
 <img width="600" src="public/proxy.png" alt="Proxy service" />
 
-得到的两个地址都会完全转发到 `https://api.openai.com` 并且都可在国内可访问，其中 `.../proxy-sse` 支持 SSE
+得到的两个地址都会完全转发到 `https://api.openai.com` 并且都可在国内可访问，其中 `.../dev-query` 支持 SSE
 
 你可以在支持自定义 `API` 的应用中使用你的代理服务，实现在国内调用 `openai` 接口的目的
 
