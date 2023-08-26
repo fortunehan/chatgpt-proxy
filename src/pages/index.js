@@ -14,6 +14,7 @@ export default function Home() {
     const { origin } = location;
     setLink(`${origin}/proxy`);
     setLinkSSE(`${origin}/get`);
+    setLinkSSE(`${origin}/query`);
     const clipboard = new ClipboardJS("#copy");
     clipboard.on("success", notify);
     return () => clipboard.destroy();
